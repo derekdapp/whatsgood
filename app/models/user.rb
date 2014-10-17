@@ -1,3 +1,4 @@
+#Users are created by devise and have many categories associated to themselves. They also have a location.
 class User < ActiveRecord::Base
   has_many :categorizations
   has_many :categories, through: :categorizations

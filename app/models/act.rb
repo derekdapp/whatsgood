@@ -1,3 +1,4 @@
+#currently not needed
 class Act < ActiveRecord::Base
 has_many :venue_acts
 has_many :event_acts
